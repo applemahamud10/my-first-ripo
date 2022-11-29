@@ -1,7 +1,8 @@
 body {
-    margin: 0;
+    margin: 50px;
     padding: 0;
     font-family: 'poppins', sans-serif;
+
 }
 
 h1 {
@@ -25,7 +26,7 @@ section {
 
 .half-width {
     width: 50%;
-    padding-left: 2%;
+    padding-left:20px;
 }
 
 .half-width img {
@@ -39,17 +40,12 @@ section {
     font-weight: 700;
     padding: 10px 40px;
     border-radius: 5px;
+
 }
 
 .top {
     background-image: url(image/top-banner.png);
     background-repeat: no-repeat;
-}
-
-.dream-big {
-    background-image: url(image/dream-bg.png);
-    background-repeat: no-repeat;
-    background-position: right;
 }
 
 .main {
@@ -98,4 +94,9 @@ footer p {
     font-weight: 800;
     font-size: 20px;
     color: black;
+}
+
+.box {
+    padding: 50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
